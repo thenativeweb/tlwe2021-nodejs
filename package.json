@@ -1,0 +1,26 @@
+{
+  "name": "tlwe2021-nodejs",
+  "version": "0.0.1",
+  "description": "beilegecode für das webinar Zeitgemäße APIs mit Node.js entwickeln.",
+  "contributors": [
+    {
+      "name": "Hannes Leutloff",
+      "email": "hannes.leutloff@thenativeweb.io"
+    },
+    {
+      "name": "Alexander Kampf",
+      "email": "alexander.kampf@thenativeweb.io"
+    }
+  ],
+  "private": false,
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thenativeweb/tlwe2021-nodejs.git"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
