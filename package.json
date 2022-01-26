@@ -22,7 +22,8 @@
     "flaschenpost": "5.0.50",
     "passport": "0.5.2",
     "passport-auth0": "1.4.2",
-    "processenv": "3.0.9"
+    "processenv": "3.0.9",
+    "query-string": "7.1.0"
   },
   "devDependencies": {
     "roboter": "12.6.4"
