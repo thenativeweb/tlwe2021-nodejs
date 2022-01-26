@@ -13,9 +13,13 @@
     }
   ],
   "private": false,
+  "main": "lib/index.js",
+  "types": "",
   "type": "module",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "roboter": "12.6.4"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
