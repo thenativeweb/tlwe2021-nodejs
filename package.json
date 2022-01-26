@@ -16,11 +16,16 @@
   "main": "lib/index.js",
   "types": "",
   "type": "module",
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.17.2",
+    "flaschenpost": "5.0.50"
+  },
   "devDependencies": {
     "roboter": "12.6.4"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node ./lib/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:thenativeweb/tlwe2021-nodejs.git"
