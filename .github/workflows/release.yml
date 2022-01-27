@@ -9,7 +9,7 @@ env:
 
 jobs:
   release:
-    name: Quality Assurance
+    name: Release
     runs-on: ${{ matrix.os }}
 
     strategy:
