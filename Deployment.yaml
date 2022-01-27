@@ -43,7 +43,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: tlwe.akampf.dev
+  - host: tlwe2021-nodejs.thenativeweb.io
     http:
       paths:
       - path: /
