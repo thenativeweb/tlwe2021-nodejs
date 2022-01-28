@@ -1,0 +1,27 @@
+{
+  "name": "tlwe2021-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "contributors": [
+    {
+      "name": "Alexander Kampf",
+      "email": "alexander.kampf@thenativeweb.io"
+    },
+    {
+      "name": "Hannes Leutloff",
+      "email": "hannes.leutloff@thenativeweb.io"
+    }
+  ],
+  "private": false,
+  "main": "lib/index.js",
+  "types": "",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.2"
+  }
+}
