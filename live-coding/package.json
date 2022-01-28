@@ -18,10 +18,24 @@
   "type": "module",
   "scripts": {
     "start": "node --experimental-specifier-resolution=node ./lib/index.js",
+    "start:watch": "nodemon --watch lib --experimental-specifier-resolution=node ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "dependencies": {
-    "express": "4.17.2"
+    "cors": "2.8.5",
+    "express": "4.17.2",
+    "express-session": "1.17.2",
+    "http-status-codes": "2.2.0",
+    "passport": "0.5.2",
+    "passport-auth0": "1.4.2",
+    "processenv": "3.0.9",
+    "query-string": "7.1.0",
+    "validate-value": "9.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15",
+    "roboter": "12.6.4",
+    "supertest": "6.2.2"
   }
 }

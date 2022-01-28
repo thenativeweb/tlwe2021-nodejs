@@ -28,11 +28,12 @@
   },
   "devDependencies": {
     "assertthat": "6.4.0",
+    "nodemon": "2.0.15",
     "roboter": "12.6.4",
     "supertest": "6.2.2"
   },
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node ./lib/index.js"
+    "start": "nodemon --watch lib --experimental-specifier-resolution=node ./lib/index.js"
   },
   "repository": {
     "type": "git",
