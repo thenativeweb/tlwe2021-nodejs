@@ -17,7 +17,7 @@
   "types": "",
   "type": "module",
   "dependencies": {
-    "express": "4.17.2",
+    "express": "4.17.3",
     "express-session": "1.17.2",
     "flaschenpost": "5.0.50",
     "passport": "0.5.2",
