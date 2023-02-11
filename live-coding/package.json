@@ -34,7 +34,7 @@
     "validate-value": "9.2.0"
   },
   "devDependencies": {
-    "nodemon": "2.0.15",
+    "nodemon": "2.0.20",
     "roboter": "12.6.4",
     "supertest": "6.2.2"
   }
